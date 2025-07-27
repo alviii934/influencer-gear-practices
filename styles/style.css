@@ -90,43 +90,63 @@
 .s {
     padding: 36px 62px;
 }
+
 /* popular collection or part 3 */
-.title{
+.title {
     text-align: center;
     font-weight: 600;
     font-size: 2rem;
 }
-.imgg{
+
+.imgg {
     /* padding: 15px; */
     border-radius: 5px;
 }
-.img-name{
+
+.img-name {
     font-size: 2rem;
     font-weight: 500;
 }
-.img-price{
-font-size: 24px;
-font-weight: 500;
+
+.img-price {
+    font-size: 1.5rem;
+    font-weight: 500;
 }
-.img-description{
+
+.img-description {
     color: #787885;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 700;
 }
-.card-container{
+
+.card-container {
     max-width: 1047px;
-    margin:100px auto ;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     justify-content: center;
 }
-.card{
-border: 5px solid antiquewhite;
-/* border-radius: 5px; */
-/* border: none; */
-padding: 15px;
+
+.card {
+    box-shadow: 5px;
+    border: 5px solid antiquewhite;
+    padding: 15px;
 }
-.full-collection{
+
+.full-collection {
     text-align: center;
+}
+
+.feature-heading {
+    font-size: 2.35rem;
+    font-weight: 700;
+}
+.fratured-product{
+    max-width: 1110px;
+    margin: 100px auto;
+    /* width: 100%; */
+    display: flex;
+    gap:96px;
+
 }
