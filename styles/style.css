@@ -150,3 +150,34 @@
     gap:96px;
 
 }
+.footer{
+    background-color: beige;
+}
+.f-head{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.copy{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+ .icons-grandpa{
+    max-width: 30px;
+    margin: 17px auto;
+    
+    justify-content: center;
+} 
+.icons-father{
+    /* text-align: center; */
+    /* height:32px;
+    width:32px; */
+    display: flex;
+    justify-content: center;
+    gap:16px ;
+    margin-bottom: 50px;
+} 
+icons{
+
+}
