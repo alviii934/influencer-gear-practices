@@ -12,15 +12,16 @@
 }
 
 /* header styles */
-.btn{
+.btn {
     background-color: #E02C6D;
     color: #ffffff;
     font-weight: 700;
     font-size: 1rem;
-    padding:10px 56px 10px 24px ;
+    padding: 10px 56px 10px 24px;
     border-radius: 41px;
     border: none;
 }
+
 .li-item {
     list-style: none;
     gap: 34px;
@@ -61,34 +62,33 @@
 .h-text {
     margin-top: 145.8px;
     margin-left: 120px;
-    
+
 }
-.img-part{
-    /* width: 100%; */
+
+.img-part {
     background-image: url("../images/Circle design.svg");
     background-repeat: no-repeat;
-    /* display: flex; */
-    /* margin: 80px 165px 100px 260px; */
-    margin:100px auto ;
-    
-}
-.img-part img{
-    padding: 30px,33px,31px,2px;
-}
-.father{
-    gap: 133px;
-    justify-content: space-around;
-    margin-right: 165px;
-    /* align-items: center; */
+    background-position: bottom right;
+
 }
 
+.img-part img {
+    padding: 30px, 33px, 31px, 2px;
+}
+
+.father {
+    text-align: center;
+    justify-content: space-between;
+}
 
 /* sponsoe style */
-.sponsors{
-margin: auto 165px;
+.sponsors {
+    max-width: 1110px;
+    margin: 100px auto;
 }
-.s{
+
+.s {
     padding: 36px 62px 36px 62px;
-    padding-left:60.42px;
+    padding-left: 60.42px;
     gap: 60.42px;
 }
