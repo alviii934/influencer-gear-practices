@@ -1,0 +1,94 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* header styles */
+.btn{
+    background-color: #E02C6D;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding:10px 56px 10px 24px ;
+    border-radius: 41px;
+    border: none;
+}
+.li-item {
+    list-style: none;
+    gap: 34px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.nav-item {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 87px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.Influencer-products-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.main-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.sub-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.h-text {
+    margin-top: 145.8px;
+    margin-left: 120px;
+    
+}
+.img-part{
+    /* width: 100%; */
+    background-image: url("../images/Circle design.svg");
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* margin: 80px 165px 100px 260px; */
+    margin:100px auto ;
+    
+}
+.img-part img{
+    padding: 30px,33px,31px,2px;
+}
+.father{
+    gap: 133px;
+    justify-content: space-around;
+    margin-right: 165px;
+    /* align-items: center; */
+}
+
+
+/* sponsoe style */
+.sponsors{
+margin: auto 165px;
+}
+.s{
+    padding: 36px 62px 36px 62px;
+    padding-left:60.42px;
+    gap: 60.42px;
+}
